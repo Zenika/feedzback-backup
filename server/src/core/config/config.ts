@@ -4,7 +4,7 @@ import { getAppEnvironment } from './config.utils';
 export const appConfigLoader = (): AppConfig => ({
   appEnv: getAppEnvironment(process.env.NODE_ENV),
 
-  serverPort: 8080,
+  serverPort: 3000,
 
   clientUrl: process.env.CLIENT_URL!,
 
